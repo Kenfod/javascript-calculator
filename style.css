@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Eurostile-Black-Regular;
+    src: url(fonts/Eurostile-Black-Regular.ttf)
+}
+
+@font-face {
+    font-family: calc-sans;
+    src: url(fonts/calc-sans.otf)
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* h1{
+    font-family: "Eurostile-Black-Regular";
+    color: #0645ad;
+    padding: 5px;
+    font-size: 3rem;
+    text-align: right;
+} */
+
+img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    position: right;
+}
+
+#calculator{
+    background-color: lightcyan;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    border: 2px solid;
+}
+
+#display{
+    font-family: calc-sans ;
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: silver;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(30, 0%, 100%);
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+     background-color: hsl(0, 0%, 80%);
+}
+
+button:active{
+     background-color: hsl(0, 0%, 40%);
+}
+
+.operator-btn{
+    background-color: hsl(60, 100%, 50%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(60, 100%, 40%);
+}
+
+.operator-btn:active{
+    background-color: hsl(60, 100%, 70%);
+}
