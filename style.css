@@ -8,6 +8,11 @@
     src: url(fonts/calc-sans.otf)
 }
 
+@font-face {
+    font-family: Digital7;
+    src: url(fonts/Digital7-rg1mL.ttf)
+}
+
 body{
     margin: 0px;
     display: flex;
@@ -15,14 +20,6 @@ body{
     align-items: center;
     height: 100vh;
 }
-
-/* h1{
-    font-family: "Eurostile-Black-Regular";
-    color: #0645ad;
-    padding: 5px;
-    font-size: 3rem;
-    text-align: right;
-} */
 
 img{
     width: 100px;
@@ -40,7 +37,7 @@ img{
 }
 
 #display{
-    font-family: calc-sans ;
+    font-family: Digital7;
     width: 100%;
     padding: 20px;
     font-size: 5rem;
